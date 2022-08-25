@@ -1,7 +1,7 @@
 class Price:
 
     def __init__(self, symbol) :
-        self.symbol = symbol + 'USDT'
+        self.symbol = (symbol + 'USDT').upper()
         self.price = {'symbol': self.symbol} 
 
     def Binance(self):
